@@ -1,0 +1,64 @@
+# mutation{
+# 	addPost(id:0,text:"Third Post from John",authorId : "614195adf2036e140761147f"){
+#     id,text,author{
+#       name,id
+#     }
+#   }
+# }
+
+# mutation{
+#   addUser(id:0,name:"Jones",username:"DavidJones"){
+#     id,name,username
+#   }
+# }
+
+# mutation{
+#   addComment(content:"comment from John ! hi",author:"6141959ef2036e140761147e",postId:"61419611f2036e1407611483"){
+#     content,author{
+#       name
+#     },post{
+#       text,
+#     }
+#   }
+# }
+
+# mutation{
+#   addReplies(content:"SubComment",author:"613f3e1c16a4ab2966f485c4",commentId:"613f3b97d1afb217f5a8bfa3"){
+#     content,author{
+#       username
+#     }
+#   }
+# }
+
+# query{
+#   posts{
+#     text,author{
+#       name
+#     },comments{
+#       content,author{
+#         name
+#       },reply{
+#         content,author{
+#           username
+#         }
+#       }
+#     }
+#   }
+# }
+
+
+# query{
+#   post(id:"614195adf2036e140761147f"){
+#     author{
+#       username
+#     },text,comments{
+#       content,author{
+#         username
+#       },reply{
+#         content,author{
+#             username
+#         }
+#       }
+#     }
+#   }
+# }

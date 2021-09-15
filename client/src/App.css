@@ -1,0 +1,2239 @@
+@import "https://cdn-web-assets.array.io/assets/css/fonts.6dbfcff92a68d68f88fce60e4ec1a554.css";
+@import "https://cdn-web-assets.array.io/assets/css/euclid-fonts.8abeba6402d2a1e2efdb8c2ea40f9d81.css";
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+    margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+    display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+    background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+    text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+    font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+    font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+sup {
+    top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+    border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+    overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+    text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+    -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+    padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+    box-sizing: border-box; /* 1 */
+    color: inherit; /* 2 */
+    display: table; /* 1 */
+    max-width: 100%; /* 1 */
+    padding: 0; /* 3 */
+    white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+    vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+    overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+    height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button; /* 1 */
+    font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+    display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+    display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+    display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+    display: none;
+}
+
+/*! normalize.css v8.0.1 End*/
+
+
+
+/*! HTML5 Boilerplate v7.3.0 | MIT License | https://html5boilerplate.com/ */
+
+/* main.css 2.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+* Hide only visually, but have it available for screen readers:
+* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+*
+* 1. For long content, line feeds are not interpreted as spaces and small width
+*    causes content to wrap 1 word per line:
+*    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+*/
+
+.sr-only {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    /* 1 */
+}
+
+/*
+* Extends the .sr-only class to allow the element
+* to be focusable when navigated to via the keyboard:
+* https://www.drupal.org/node/897638
+*/
+
+.sr-only.focusable:active,
+.sr-only.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    white-space: inherit;
+    width: auto;
+}
+
+/*
+* Hide visually and from screen readers, but maintain layout
+*/
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+* Clearfix: contain floats
+*
+* For modern browsers
+* 1. The space content is one way to avoid an Opera bug when the
+*    `contenteditable` attribute is included anywhere else in the document.
+*    Otherwise it causes space to appear at the top and bottom of elements
+*    that receive the `clearfix` class.
+* 2. The use of `table` rather than `block` is only necessary if using
+*    `:before` to contain the top-margins of child elements.
+*/
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        /* Black prints faster */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+    /*
+       * Don't show links that are fragment identifiers,
+       * or use the `javascript:` pseudo protocol
+       */
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+    pre {
+        white-space: pre-wrap !important;
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+    /*
+       * Printing Tables:
+       * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
+       */
+    thead {
+        display: table-header-group;
+    }
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+/*! HTML5 Boilerplate v7.3.0 | End */
+
+
+/*! Styling Started */
+
+html,
+body {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+div,
+p,
+section,
+a,
+.container,
+.container-md,
+.modal-wrapper {
+    font-family: 'Heebo', 'Roboto', 'Open Sans', serif;
+    color: #3e3f42;
+}
+
+a,
+a:active,
+a:hover,
+a:visited {
+    text-decoration: none;
+    color: #1665d8;
+}
+
+div,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+p,
+section,
+a {
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    color: #3e3f42;
+}
+
+section {
+    margin-top: 60px;
+}
+
+img {
+    max-width: 100% !important;
+}
+
+input,
+select {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    overflow: auto;
+}
+
+.container-md {
+    max-width: 840px;
+    margin: 0 auto 50px;
+    padding: 30px 20px;
+    overflow: auto;
+}
+
+.relative {
+    position: relative;
+}
+
+.flex-48 {
+    flex: 0 0 48%;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-shrink-0 {
+    flex-shrink: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-vertical {
+    display: flex;
+    align-items: center;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flex-between-swap-mobile,
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.weight-500 {
+    font-weight: 500;
+}
+
+.margin-top-50 {
+    margin-top: 50px;
+}
+
+.display-block-mobile {
+    display: none !important;
+}
+
+.d0-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #3e3f42;
+    margin-bottom: 10px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.expand-all-phone {
+    display: none;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    visibility: visible;
+    width: 4px !important;
+    height: 4px !important;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    border-radius: 2px;
+    background: rgba(93, 93, 93, 0.05);
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background: rgba(42, 42, 42, 0.2);
+}
+
+.custom-scrollbar {
+    /** // Firefox - Gecko **/
+    scrollbar-width: thin;
+    scrollbar-color: rgba(42, 42, 42, 0.2) rgba(93, 93, 93, 0.05);
+
+    /** // IE >= 8 **/
+    scrollbar-track-color: rgba(93, 93, 93, 0.05);
+    scrollbar-face-color: rgba(42, 42, 42, 0.2);
+    position: relative !important;
+    right: 3px !important;
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        margin-top: 40px;
+    }
+
+    .flex-between-swap-mobile {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        padding: 0 20px 30px;
+    }
+
+    .display-none-mobile {
+        display: none !important;
+    }
+
+    .display-block-mobile {
+        display: block !important;
+    }
+
+    .margin-top-50 {
+        margin-top: 40px;
+    }
+
+    .display-block {
+        display: block;
+    }
+
+    .no-margin-bottom-in-mobile {
+        margin-bottom: 0 !important;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container {
+        padding: 20px 10px;
+    }
+}
+
+.subtitle {
+    color: #3E3F42;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 14px;
+}
+
+.form {
+    border: 1px solid #D7DEE4;
+    border-radius: 6px;
+    padding: 32px 36px 40px;
+    margin-bottom: 32px;
+}
+
+.form label {
+    font-size: 14px;
+    color: #3E3F42;
+}
+
+.form input {
+    width: 322px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    margin-right: 35px;
+    padding: 0 0 0 12px;
+    border: 1px solid #d7dee4;
+    border-radius: 4px;
+    outline: none;
+    background-color: #fafbfc;
+    color: #3e3f42;
+    margin-top: 5px;
+}
+
+.form .input-with-icon {
+    position: relative;
+}
+
+.form .input-with-icon .input-icon {
+    position: absolute;
+    color: #3e3f42;
+    line-height: 40px;
+    padding: 0 9px 0 12px;
+}
+
+.form .input-with-icon .input {
+    padding-left: 30px;
+}
+
+.form .button {
+    width: 132px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #25C77A;
+    border-radius: 4px;
+    background-color: #25C77A;
+    box-shadow: inset 0 2px 0 0 rgba(255, 255, 255, 0.06), 0 1px 1px 0 rgba(22, 29, 37, 0.1);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 24px;
+    font-weight: 500;
+    outline: none;
+}
+
+.form .button:hover {
+    opacity: 0.8;
+}
+
+.form .button:active {
+    outline: none;
+}
+
+.form .radio-select-wrapper {
+    width: 161px;
+    margin-right: 36px;
+}
+
+.form .radio-select {
+    display: flex;
+    align-items: center;
+    height: 42px;
+}
+
+.form .radio-answer-list {
+    margin-right: 24px;
+    /* CMS component radio lists were not rendering right without this for some reason */
+    height: fit-content;
+}
+
+/* The container */
+.form .radio-answer-list .container {
+    display: block;
+    position: relative;
+    color: #3E3F42;
+    padding: 0 0 0 24px;
+    cursor: pointer;
+    font-size: 14px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Hide the browser's default radio button */
+.form .container input {
+    width: auto;
+    height: auto;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.form .container .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    background-color: #FAFBFC;
+    border: solid 1px #d8dce6;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.form .container:hover input ~ .checkmark {
+    background-color: #eee;
+}
+
+/* When the radio button is checked, add a blue background */
+.form .container input:checked ~ .checkmark {
+    background-color: #27D381;
+    border-color: #27D381;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.form .container .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.form .container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.form .container .checkmark:after {
+    top: 3px;
+    left: 3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: white;
+}
+
+/* The checkbox-container */
+.form .checkbox .checkbox-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #3E3F42;
+    font-weight: 500;
+}
+
+/* Hide the browser's default checkbox */
+.form .checkbox .checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.form .checkbox .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.form .checkbox .checkbox-container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.form .checkbox .checkbox-container input:checked ~ .checkmark {
+    background-color: #27D381;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.form .checkbox .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.form .checkbox .checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.form .checkbox .checkbox-container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+    .form {
+        padding: 20px 15px;
+    }
+
+    .form input {
+        width: 100%;
+    }
+}
+
+
+.collapsible__open-close-icon {
+    width: 20px;
+    height: 20px;
+    flex: 0 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.collapsible .collapsible__open-close-icon .minus-path,
+.collapsible.expanded .collapsible__open-close-icon .plus-path {
+    display: none;
+}
+
+.collapsible.expanded .collapsible__open-close-icon .minus-path,
+.collapsible .collapsible__open-close-icon .plus-path {
+    display: block;
+}
+
+.collapsible .collapsible__content-block,
+.collapsible .collapsible__content-flex,
+.collapsible .collapsible__content {
+    display: none;
+}
+
+.collapsible.expanded .collapsible__content-block {
+    display: block;
+}
+
+.collapsible.expanded .collapsible__content-flex,
+.collapsible.expanded .collapsible__content {
+    display: flex;
+}
+
+.collapsible .collapsible__toggle-handler {
+    cursor: pointer;
+    user-select: none;
+}
+
+
+.collapsible.arrow-icon .collapsible__open-close-icon {
+    position: relative;
+}
+
+.collapsible.arrow-icon .collapsible__open-close-icon {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.collapsible.arrow-icon .collapsible__open-close-icon .plus-minus {
+    display: none;
+    pointer-events: none;
+}
+
+.collapsible.arrow-icon .collapsible__open-close-icon:before,
+.collapsible.arrow-icon .collapsible__open-close-icon:after {
+    display: inline-block;
+    content: ' ';
+    position: absolute;
+    transition: transform 0.2s ease-in-out;
+    pointer-events: all;
+    top: 9px;
+    width: 10px;
+    height: 2px;
+    background-color: rgb(0, 210, 160);
+}
+
+.collapsible.arrow-icon .collapsible__open-close-icon:before {
+    top: 10px;
+    right: 8px;
+    transform: rotate(45deg);
+}
+
+.collapsible.arrow-icon .collapsible__open-close-icon:after {
+    top: 10px;
+    right: 2px;
+    transform: rotate(315deg);
+}
+
+.collapsible.arrow-icon.expanded .collapsible__open-close-icon:before {
+    /*right: 0;*/
+    transform: rotate(135deg);
+}
+
+.collapsible.arrow-icon.expanded .collapsible__open-close-icon:after {
+    /*right: 6px;*/
+    transform: rotate(225deg);
+}
+
+@media screen and (max-width: 576px) {
+    .collapsible.arrow-icon .collapsible__open-close-icon:before,
+    .collapsible.arrow-icon .collapsible__open-close-icon:after {
+        width: 9px;
+    }
+
+    .collapsible.arrow-icon .collapsible__open-close-icon:before {
+        right: 7px;
+    }
+}
+
+
+/* Common css*/
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+div,
+p,
+section,
+a,
+.container,
+.container-md,
+.modal-wrapper {
+    font-family: 'Euclid Circular B', 'Roboto', 'Open Sans', serif;
+    color: #3e3f42;
+}
+
+section {
+    margin-top: 60px;
+}
+
+a,
+a:active,
+a:hover,
+a:visited {
+    text-decoration: none;
+    color: #1665d8;
+}
+
+div,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+p,
+a {
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    color: #3e3f42;
+}
+
+img {
+    max-width: 100% !important;
+}
+
+input,
+select {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    overflow: auto;
+}
+
+.container-md {
+    max-width: 840px;
+    margin: 0 auto 50px;
+    padding: 30px 20px;
+    overflow: auto;
+}
+
+.relative {
+    position: relative;
+}
+
+.flex-48 {
+    flex: 0 0 48%;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-shrink-0 {
+    flex-shrink: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-vertical {
+    display: flex;
+    align-items: center;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flex-between-swap-mobile,
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.weight-500 {
+    font-weight: 500;
+}
+
+.margin-top-50 {
+    margin-top: 50px;
+}
+
+.display-block-mobile {
+    display: none !important;
+}
+
+.d0-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #3e3f42;
+    margin-bottom: 10px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.expand-all-phone {
+    display: none;
+}
+
+.display-none-in-brigit {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        margin-top: 40px;
+    }
+
+    .flex-between-swap-mobile {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        padding: 0 20px 30px;
+    }
+
+    .display-none-mobile {
+        display: none !important;
+    }
+
+    .display-block-mobile {
+        display: block !important;
+    }
+
+    .margin-top-50 {
+        margin-top: 40px;
+    }
+
+    .display-block {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container {
+        padding: 20px 10px;
+    }
+}
+
+/*Common css end*/
+
+.theme-brigit .collapsible__open-close-icon {
+    position: relative;
+}
+
+.theme-brigit .collapsible__open-close-icon {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.theme-brigit .collapsible.arrow-icon .collapsible__open-close-icon:before,
+.theme-brigit .collapsible.arrow-icon .collapsible__open-close-icon:after {
+    display: inline-block;
+    content: ' ';
+    position: absolute;
+    transition: transform 0.2s ease-in-out;
+    pointer-events: all;
+    top: 9px;
+    width: 10px;
+    height: 2px;
+    background-color: #B3B3B3;
+}
+
+.theme-brigit .collapsible__open-close-icon:before {
+    top: 10px;
+    right: 8px;
+    transform: rotate(45deg);
+}
+
+.theme-brigit .collapsible__open-close-icon:after {
+    top: 10px;
+    right: 2px;
+    transform: rotate(315deg);
+}
+
+.theme-brigit .collapsible.expanded .collapsible__open-close-icon:before {
+    /*right: 0;*/
+    transform: rotate(135deg);
+}
+
+.theme-brigit .collapsible.expanded .collapsible__open-close-icon:after {
+    /*right: 6px;*/
+    transform: rotate(225deg);
+}
+
+.theme-brigit .credit-lock-header .title {
+    color: #333333;
+    font-weight: 700;
+}
+
+
+@media screen and (max-width: 576px) {
+    .theme-brigit .credit-lock-header .title {
+        font-size: 30px;
+    }
+}
+
+
+.theme-brigit .credit-freeze-center .center-block {
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.1);
+    padding: 30px 20px;
+    border: none;
+}
+
+.theme-brigit .credit-freeze-center .center-block.active {
+    border: none;
+    background-color: white;
+}
+
+.theme-brigit .credit-freeze-center .unlock-btn {
+    background: #24956a;
+    border: 2px solid #e5e5e5;
+    width: 151px;
+    height: 48px;
+    margin-bottom: 30px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.theme-brigit .credit-freeze-center .logo {
+    margin-bottom: 35px;
+}
+
+.theme-brigit .credit-freeze-center .logo svg {
+    height: 57px;
+}
+
+.theme-brigit .credit-freeze-center .lock-btn {
+    width: 151px;
+    height: 48px;
+    margin-bottom: 30px;
+    border: 2px solid #e5e5e5;
+}
+
+.theme-brigit .credit-freeze-center .lock-btn .green-area {
+    height: 49px;
+    width: 49px;
+    background: #24956a;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.18), 0 2px 2px 0 rgba(0, 0, 0, 0.22);
+    border-radius: 5px;
+    left: -2px;
+    border: none;
+    top: -1px;
+}
+
+.theme-brigit .credit-freeze-center .lock-btn .unlocked {
+    color: #333;
+}
+
+.theme-brigit .credit-freeze-center .lock-text {
+    display: none;
+}
+
+.theme-brigit .credit-freeze-center .history-title {
+    font-size: 16px;
+    color: #24956a;
+    text-align: center;
+    line-height: 22px;
+}
+
+.theme-brigit .credit-freeze-center .green-area svg {
+    display: none;
+}
+
+.theme-brigit .credit-freeze-center .green-area:after {
+    display: block;
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMzVweCIgaGVpZ2h0PSIzNXB4IiB2aWV3Qm94PSIwIDAgMzUgMzUiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDYzLjEgKDkyNDUyKSAtIGh0dHBzOi8vc2tldGNoLmNvbSAtLT4KICAgIDx0aXRsZT5pY29uL2xvY2svd2hpdGU8L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CiAgICA8ZGVmcz4KICAgICAgICA8cmVjdCBpZD0icGF0aC0xIiB4PSIwIiB5PSIwIiB3aWR0aD0iMzU1IiBoZWlnaHQ9IjM3MiIgcng9IjYiPjwvcmVjdD4KICAgICAgICA8ZmlsdGVyIHg9Ii0zLjUlIiB5PSItMy4xJSIgd2lkdGg9IjEwNy4wJSIgaGVpZ2h0PSIxMDYuNyUiIGZpbHRlclVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgaWQ9ImZpbHRlci0yIj4KICAgICAgICAgICAgPGZlT2Zmc2V0IGR4PSIwIiBkeT0iMSIgaW49IlNvdXJjZUFscGhhIiByZXN1bHQ9InNoYWRvd09mZnNldE91dGVyMSI+PC9mZU9mZnNldD4KICAgICAgICAgICAgPGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iNCIgaW49InNoYWRvd09mZnNldE91dGVyMSIgcmVzdWx0PSJzaGFkb3dCbHVyT3V0ZXIxIj48L2ZlR2F1c3NpYW5CbHVyPgogICAgICAgICAgICA8ZmVDb2xvck1hdHJpeCB2YWx1ZXM9IjAgMCAwIDAgMCAgIDAgMCAwIDAgMCAgIDAgMCAwIDAgMCAgMCAwIDAgMC4xIDAiIHR5cGU9Im1hdHJpeCIgaW49InNoYWRvd0JsdXJPdXRlcjEiPjwvZmVDb2xvck1hdHJpeD4KICAgICAgICA8L2ZpbHRlcj4KICAgICAgICA8cmVjdCBpZD0icGF0aC0zIiB4PSIwIiB5PSIwIiB3aWR0aD0iNDciIGhlaWdodD0iNDciIHJ4PSI0LjkyOCI+PC9yZWN0PgogICAgICAgIDxmaWx0ZXIgeD0iLTM4LjMlIiB5PSItMjUuNSUiIHdpZHRoPSIxNzYuNiUiIGhlaWdodD0iMTc2LjYlIiBmaWx0ZXJVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giIGlkPSJmaWx0ZXItNCI+CiAgICAgICAgICAgIDxmZU9mZnNldCBkeD0iMCIgZHk9IjIiIGluPSJTb3VyY2VBbHBoYSIgcmVzdWx0PSJzaGFkb3dPZmZzZXRPdXRlcjEiPjwvZmVPZmZzZXQ+CiAgICAgICAgICAgIDxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjEiIGluPSJzaGFkb3dPZmZzZXRPdXRlcjEiIHJlc3VsdD0ic2hhZG93Qmx1ck91dGVyMSI+PC9mZUdhdXNzaWFuQmx1cj4KICAgICAgICAgICAgPGZlQ29sb3JNYXRyaXggdmFsdWVzPSIwIDAgMCAwIDAgICAwIDAgMCAwIDAgICAwIDAgMCAwIDAgIDAgMCAwIDAuMjIyNDkyMzUxIDAiIHR5cGU9Im1hdHJpeCIgaW49InNoYWRvd0JsdXJPdXRlcjEiIHJlc3VsdD0ic2hhZG93TWF0cml4T3V0ZXIxIj48L2ZlQ29sb3JNYXRyaXg+CiAgICAgICAgICAgIDxmZU9mZnNldCBkeD0iMCIgZHk9IjYiIGluPSJTb3VyY2VBbHBoYSIgcmVzdWx0PSJzaGFkb3dPZmZzZXRPdXRlcjIiPjwvZmVPZmZzZXQ+CiAgICAgICAgICAgIDxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjUiIGluPSJzaGFkb3dPZmZzZXRPdXRlcjIiIHJlc3VsdD0ic2hhZG93Qmx1ck91dGVyMiI+PC9mZUdhdXNzaWFuQmx1cj4KICAgICAgICAgICAgPGZlQ29sb3JNYXRyaXggdmFsdWVzPSIwIDAgMCAwIDAgICAwIDAgMCAwIDAgICAwIDAgMCAwIDAgIDAgMCAwIDAuMTg0MjIyMDI4IDAiIHR5cGU9Im1hdHJpeCIgaW49InNoYWRvd0JsdXJPdXRlcjIiIHJlc3VsdD0ic2hhZG93TWF0cml4T3V0ZXIyIj48L2ZlQ29sb3JNYXRyaXg+CiAgICAgICAgICAgIDxmZU1lcmdlPgogICAgICAgICAgICAgICAgPGZlTWVyZ2VOb2RlIGluPSJzaGFkb3dNYXRyaXhPdXRlcjEiPjwvZmVNZXJnZU5vZGU+CiAgICAgICAgICAgICAgICA8ZmVNZXJnZU5vZGUgaW49InNoYWRvd01hdHJpeE91dGVyMiI+PC9mZU1lcmdlTm9kZT4KICAgICAgICAgICAgPC9mZU1lcmdlPgogICAgICAgIDwvZmlsdGVyPgogICAgPC9kZWZzPgogICAgPGcgaWQ9IkNyZWRpdC1UYWIiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSJGcmVlemUtLy1VbmNsb2NrZWQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMTcuMDAwMDAwLCAtNTI3LjAwMDAwMCkiPgogICAgICAgICAgICA8cmVjdCBmaWxsPSIjRkZGRkZGIiB4PSIwIiB5PSIwIiB3aWR0aD0iMzc1IiBoZWlnaHQ9IjE2MjgiPjwvcmVjdD4KICAgICAgICAgICAgPGcgaWQ9IlNlY3Rpb24iIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xLjAwMDAwMCwgNTExLjAwMDAwMCkiPjwvZz4KICAgICAgICAgICAgPGcgaWQ9IkxvY2stQ2FyZCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTAuMDAwMDAwLCAzOTkuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICA8ZyBpZD0iTWFzay1Db3B5LTciPgogICAgICAgICAgICAgICAgICAgIDx1c2UgZmlsbD0iYmxhY2siIGZpbGwtb3BhY2l0eT0iMSIgZmlsdGVyPSJ1cmwoI2ZpbHRlci0yKSIgeGxpbms6aHJlZj0iI3BhdGgtMSI+PC91c2U+CiAgICAgICAgICAgICAgICAgICAgPHVzZSBmaWxsPSIjRkZGRkZGIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHhsaW5rOmhyZWY9IiNwYXRoLTEiPjwvdXNlPgogICAgICAgICAgICAgICAgPC9nPgogICAgICAgICAgICAgICAgPGcgaWQ9IkxvY2siIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEwMS4wMDAwMDAsIDEyMi4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICA8cmVjdCBpZD0iUmVjdGFuZ2xlIiBzdHJva2U9IiNFNUU1RTUiIHN0cm9rZS13aWR0aD0iMi4yIiBmaWxsPSIjRkZGRkZGIiB4PSIxIiB5PSIwIiB3aWR0aD0iMTUxIiBoZWlnaHQ9IjQ4IiByeD0iNC45MjgiPjwvcmVjdD4KICAgICAgICAgICAgICAgICAgICA8ZyBpZD0iUmVjdGFuZ2xlLUNvcHktNCI+CiAgICAgICAgICAgICAgICAgICAgICAgIDx1c2UgZmlsbD0iYmxhY2siIGZpbGwtb3BhY2l0eT0iMSIgZmlsdGVyPSJ1cmwoI2ZpbHRlci00KSIgeGxpbms6aHJlZj0iI3BhdGgtMyI+PC91c2U+CiAgICAgICAgICAgICAgICAgICAgICAgIDx1c2UgZmlsbD0iIzI0OTU2QSIgZmlsbC1ydWxlPSJldmVub2RkIiB4bGluazpocmVmPSIjcGF0aC0zIj48L3VzZT4KICAgICAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgICAgICAgICAgPGcgaWQ9Ikdyb3VwLTI0IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2LjAwMDAwMCwgNi4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICAgICAgPGcgaWQ9IkxvY2siIHRyYW5zZm9ybT0idHJhbnNsYXRlKDUuMzUwMDAwLCAzLjM1MDAwMCkiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTExLjc1NjgxODIsLTEuMDg1MzU0MDNlLTEyIEM4LjMzNjU3NzY5LC0xLjA4NTM1NDAzZS0xMiA1LjUzMzA2NDI1LDIuNzA5NzgxODEgNS40MDQ1ODEzLDYuMTIxNjQyNDggTDUuNCw2LjM1MzExMjI0IEw1LjQsMTIuOCBMMTguMTEzNjM2NCwxMi44IEwxOC4xMTM2MzY0LDYuMzY1MzI4NDcgTDE4LjEwOTQwMDcsNi4xMzM4ODY0NCBDMTcuOTgwNTcyMSwyLjcwOTc4MTgxIDE1LjE3NzA1ODcsLTEuMDg1MzU0MDNlLTEyIDExLjc1NjgxODIsLTEuMDg1MzU0MDNlLTEyIFogTTExLjc1NjgxODIsMS4zIEMxNC40NzcwNzYzLDEuMyAxNi43MDc3NTUzLDMuNDU2MDk5MjcgMTYuODA5OTc1OSw2LjE3MDU2Mjg3IEwxNi44MTM3NTEyLDYuMzc3NTQ0NyBMMTYuODEzLDExLjUgTDYuNywxMS41IEw2LjcsNi4zNjUzMjg0NyBMNi43MDQwMDYwOSw2LjE1ODMxODkgQzYuODA1ODgxMDYsMy40NTYwOTkyNyA5LjAzNjU2MDAzLDEuMyAxMS43NTY4MTgyLDEuMyBaIiBpZD0iQ29tYmluZWQtU2hhcGUiIGZpbGw9IiNGRkZGRkYiIGZpbGwtcnVsZT0ibm9uemVybyI+PC9wYXRoPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTMuNjUsMTEuNDUgTDExLjY0OTU3NCwxMS40NSBMMTEuNjQ5NTc0LDExLjQ1IEwxOS43NDA5MDkxLDExLjQ1IEMyMS4zOTc3NjMzLDExLjQ1IDIyLjc0MDkwOTEsMTIuNzkzMTQ1OCAyMi43NDA5MDkxLDE0LjQ1IEwyMi43NDA5MDkxLDI0LjE1OTA5MDkgQzIyLjc0MDkwOTEsMjUuODE1OTQ1MiAyMS4zOTc3NjMzLDI3LjE1OTA5MDkgMTkuNzQwOTA5MSwyNy4xNTkwOTA5IEwxMS42NzU3MzE3LDI3LjE1OTA5MDkgTDExLjY3NTczMTcsMjcuMTU5MDkwOSBMMy42NSwyNy4xNTkwOTA5IEMxLjk5MzE0NTc1LDI3LjE1OTA5MDkgMC42NSwyNS44MTU5NDUyIDAuNjUsMjQuMTU5MDkwOSBMMC42NSwxNC40NSBDMC42NSwxMi43OTMxNDU4IDEuOTkzMTQ1NzUsMTEuNDUgMy42NSwxMS40NSBaIiBpZD0iUmVjdGFuZ2xlIiBmaWxsPSIjRkZGRkZGIj48L3BhdGg+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMTkuNzQwOTA5MSwxMC42NSBMMy42NSwxMC42NSBDMS42MzQxNjA2NiwxMC42NSA5Ljk0NzU5ODNlLTE0LDEyLjI4NDE2MDcgOS45NDc1OTgzZS0xNCwxNC4zIEw5Ljk0NzU5ODNlLTE0LDI0LjAwOTA5MDkgQzkuOTQ3NTk4M2UtMTQsMjYuMDI0OTMwMiAxLjYzNDE2MDY2LDI3LjY1OTA5MDkgMy42NSwyNy42NTkwOTA5IEwxOS43NDA5MDkxLDI3LjY1OTA5MDkgQzIxLjc1Njc0ODQsMjcuNjU5MDkwOSAyMy4zOTA5MDkxLDI2LjAyNDkzMDIgMjMuMzkwOTA5MSwyNC4wMDkwOTA5IEwyMy4zOTA5MDkxLDE0LjMgQzIzLjM5MDkwOTEsMTIuMjg0MTYwNyAyMS43NTY3NDg0LDEwLjY1IDE5Ljc0MDkwOTEsMTAuNjUgWiBNMy42NSwxMS45NSBMMTkuNzQwOTA5MSwxMS45NSBDMjEuMDM4Nzc4MywxMS45NSAyMi4wOTA5MDkxLDEzLjAwMjEzMDggMjIuMDkwOTA5MSwxNC4zIEwyMi4wOTA5MDkxLDI0LjAwOTA5MDkgQzIyLjA5MDkwOTEsMjUuMzA2OTYwMSAyMS4wMzg3NzgzLDI2LjM1OTA5MDkgMTkuNzQwOTA5MSwyNi4zNTkwOTA5IEwzLjY1LDI2LjM1OTA5MDkgQzIuMzUyMTMwODQsMjYuMzU5MDkwOSAxLjMsMjUuMzA2OTYwMSAxLjMsMjQuMDA5MDkwOSBMMS4zLDE0LjMgQzEuMywxMy4wMDIxMzA4IDIuMzUyMTMwODQsMTEuOTUgMy42NSwxMS45NSBaIiBpZD0iUmVjdGFuZ2xlIiBmaWxsPSIjRkZGRkZGIiBmaWxsLXJ1bGU9Im5vbnplcm8iPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0xMS42MzQwOTA5LDE1LjM1IEMxMi43NTI0Njc1LDE1LjM1IDEzLjY1OTA5MDksMTYuMjU2NjIzNCAxMy42NTkwOTA5LDE3LjM3NSBDMTMuNjU5MDkwOSwxOC4wNDkwMDYgMTMuMzI5ODAxMSwxOC42NDYxMDIyIDEyLjgyMzMyMjEsMTkuMDE0MTg4MiBMMTMuNDgzMTE5NCwyMi41NjM0NjE4IEMxMy40OTIwOSwyMi42MTE2OTk4IDEzLjQ5NjYwMzgsMjIuNjYwNjYwNyAxMy40OTY2MDM4LDIyLjcwOTcyNTcgQzEzLjQ5NjYwMzgsMjMuMTUxNTUzNSAxMy4xMzg0MzE2LDIzLjUwOTcyNTcgMTIuNjk2NjAzOCwyMy41MDk3MjU3IEwxMi42OTY2MDM4LDIzLjUwOTcyNTcgTDEwLjYwMjkzNzcsMjMuNTA5NzI1NyBDMTAuNTQ1NDcxOSwyMy41MDk3MjU3IDEwLjQ4ODE3MzMsMjMuNTAzNTMzOSAxMC40MzIwMzQxLDIzLjQ5MTI1NzUgQzEwLjAwMDQwNiwyMy4zOTY4NzAxIDkuNzI3MDE4NDcsMjIuOTcwNDUwMiA5LjgyMTQwNTkzLDIyLjUzODgyMjEgTDkuODIxNDA1OTMsMjIuNTM4ODIyMSBMMTAuNTcyNzU0NywxOS4wOTk5MTcxIEM5Ljk5NDUxNDIzLDE4Ljc0MzM2OTMgOS42MDkwOTA5MSwxOC4xMDQxOTQ5IDkuNjA5MDkwOTEsMTcuMzc1IEM5LjYwOTA5MDkxLDE2LjI1NjYyMzQgMTAuNTE1NzE0MywxNS4zNSAxMS42MzQwOTA5LDE1LjM1IFoiIGlkPSJDb21iaW5lZC1TaGFwZSIgZmlsbD0iIzI0OTU2QSI+PC9wYXRoPgogICAgICAgICAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgICAgICAgICAgICAgIDxyZWN0IGlkPSJSZWN0YW5nbGUiIHg9IjAiIHk9IjAiIHdpZHRoPSIzNSIgaGVpZ2h0PSIzNSI+PC9yZWN0PgogICAgICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+");
+}
+
+.theme-brigit .credit-freeze-center .white-area {
+    width: 45px;
+    height: 45px;
+    right: 0;
+    position: relative;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.18), 0 2px 2px 0 rgba(0, 0, 0, 0.22);
+}
+
+.theme-brigit .credit-freeze-center .white-area:after {
+    display: block;
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMzVweCIgaGVpZ2h0PSIzNXB4IiB2aWV3Qm94PSIwIDAgMzUgMzUiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDYzLjEgKDkyNDUyKSAtIGh0dHBzOi8vc2tldGNoLmNvbSAtLT4KICAgIDx0aXRsZT5pY29uL2xvY2svZ3JlZW48L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CiAgICA8ZGVmcz4KICAgICAgICA8cmVjdCBpZD0icGF0aC0xIiB4PSIwIiB5PSIwIiB3aWR0aD0iMzU1IiBoZWlnaHQ9IjM3MiIgcng9IjYiPjwvcmVjdD4KICAgICAgICA8ZmlsdGVyIHg9Ii0zLjUlIiB5PSItMy4xJSIgd2lkdGg9IjEwNy4wJSIgaGVpZ2h0PSIxMDYuNyUiIGZpbHRlclVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgaWQ9ImZpbHRlci0yIj4KICAgICAgICAgICAgPGZlT2Zmc2V0IGR4PSIwIiBkeT0iMSIgaW49IlNvdXJjZUFscGhhIiByZXN1bHQ9InNoYWRvd09mZnNldE91dGVyMSI+PC9mZU9mZnNldD4KICAgICAgICAgICAgPGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iNCIgaW49InNoYWRvd09mZnNldE91dGVyMSIgcmVzdWx0PSJzaGFkb3dCbHVyT3V0ZXIxIj48L2ZlR2F1c3NpYW5CbHVyPgogICAgICAgICAgICA8ZmVDb2xvck1hdHJpeCB2YWx1ZXM9IjAgMCAwIDAgMCAgIDAgMCAwIDAgMCAgIDAgMCAwIDAgMCAgMCAwIDAgMC4xIDAiIHR5cGU9Im1hdHJpeCIgaW49InNoYWRvd0JsdXJPdXRlcjEiPjwvZmVDb2xvck1hdHJpeD4KICAgICAgICA8L2ZpbHRlcj4KICAgICAgICA8cmVjdCBpZD0icGF0aC0zIiB4PSIxMDMiIHk9IjAiIHdpZHRoPSI0NyIgaGVpZ2h0PSI0NyIgcng9IjQuOTI4Ij48L3JlY3Q+CiAgICAgICAgPGZpbHRlciB4PSItMzguMyUiIHk9Ii0yNS41JSIgd2lkdGg9IjE3Ni42JSIgaGVpZ2h0PSIxNzYuNiUiIGZpbHRlclVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgaWQ9ImZpbHRlci00Ij4KICAgICAgICAgICAgPGZlT2Zmc2V0IGR4PSIwIiBkeT0iMiIgaW49IlNvdXJjZUFscGhhIiByZXN1bHQ9InNoYWRvd09mZnNldE91dGVyMSI+PC9mZU9mZnNldD4KICAgICAgICAgICAgPGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMSIgaW49InNoYWRvd09mZnNldE91dGVyMSIgcmVzdWx0PSJzaGFkb3dCbHVyT3V0ZXIxIj48L2ZlR2F1c3NpYW5CbHVyPgogICAgICAgICAgICA8ZmVDb2xvck1hdHJpeCB2YWx1ZXM9IjAgMCAwIDAgMCAgIDAgMCAwIDAgMCAgIDAgMCAwIDAgMCAgMCAwIDAgMC4yMjI0OTIzNTEgMCIgdHlwZT0ibWF0cml4IiBpbj0ic2hhZG93Qmx1ck91dGVyMSIgcmVzdWx0PSJzaGFkb3dNYXRyaXhPdXRlcjEiPjwvZmVDb2xvck1hdHJpeD4KICAgICAgICAgICAgPGZlT2Zmc2V0IGR4PSIwIiBkeT0iNiIgaW49IlNvdXJjZUFscGhhIiByZXN1bHQ9InNoYWRvd09mZnNldE91dGVyMiI+PC9mZU9mZnNldD4KICAgICAgICAgICAgPGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iNSIgaW49InNoYWRvd09mZnNldE91dGVyMiIgcmVzdWx0PSJzaGFkb3dCbHVyT3V0ZXIyIj48L2ZlR2F1c3NpYW5CbHVyPgogICAgICAgICAgICA8ZmVDb2xvck1hdHJpeCB2YWx1ZXM9IjAgMCAwIDAgMCAgIDAgMCAwIDAgMCAgIDAgMCAwIDAgMCAgMCAwIDAgMC4xODQyMjIwMjggMCIgdHlwZT0ibWF0cml4IiBpbj0ic2hhZG93Qmx1ck91dGVyMiIgcmVzdWx0PSJzaGFkb3dNYXRyaXhPdXRlcjIiPjwvZmVDb2xvck1hdHJpeD4KICAgICAgICAgICAgPGZlTWVyZ2U+CiAgICAgICAgICAgICAgICA8ZmVNZXJnZU5vZGUgaW49InNoYWRvd01hdHJpeE91dGVyMSI+PC9mZU1lcmdlTm9kZT4KICAgICAgICAgICAgICAgIDxmZU1lcmdlTm9kZSBpbj0ic2hhZG93TWF0cml4T3V0ZXIyIj48L2ZlTWVyZ2VOb2RlPgogICAgICAgICAgICA8L2ZlTWVyZ2U+CiAgICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICA8ZyBpZD0iQ3JlZGl0LVRhYiIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9IkZyZWV6ZS0vLUxvY2tlZC0vLUNsb3NlZCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTIyMS4wMDAwMDAsIC01MjcuMDAwMDAwKSI+CiAgICAgICAgICAgIDxyZWN0IGZpbGw9IiNGRkZGRkYiIHg9IjAiIHk9IjAiIHdpZHRoPSIzNzUiIGhlaWdodD0iNzc4Ij48L3JlY3Q+CiAgICAgICAgICAgIDxnIGlkPSJMb2NrLUNhcmQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEwLjAwMDAwMCwgMzk5LjAwMDAwMCkiPgogICAgICAgICAgICAgICAgPGcgaWQ9Ik1hc2stQ29weS03Ij4KICAgICAgICAgICAgICAgICAgICA8dXNlIGZpbGw9ImJsYWNrIiBmaWxsLW9wYWNpdHk9IjEiIGZpbHRlcj0idXJsKCNmaWx0ZXItMikiIHhsaW5rOmhyZWY9IiNwYXRoLTEiPjwvdXNlPgogICAgICAgICAgICAgICAgICAgIDx1c2UgZmlsbD0iI0ZGRkZGRiIgZmlsbC1ydWxlPSJldmVub2RkIiB4bGluazpocmVmPSIjcGF0aC0xIj48L3VzZT4KICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgICAgIDxnIGlkPSJMb2NrIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMDIuMDAwMDAwLCAxMjIuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICAgICAgPHJlY3QgaWQ9IlJlY3RhbmdsZSIgc3Ryb2tlPSIjRTVFNUU1IiBzdHJva2Utd2lkdGg9IjIuMiIgZmlsbD0iIzI0OTU2QSIgeD0iMCIgeT0iMCIgd2lkdGg9IjE1MSIgaGVpZ2h0PSI0OCIgcng9IjQuOTI4Ij48L3JlY3Q+CiAgICAgICAgICAgICAgICAgICAgPGcgaWQ9IlJlY3RhbmdsZS1Db3B5LTQiPgogICAgICAgICAgICAgICAgICAgICAgICA8dXNlIGZpbGw9ImJsYWNrIiBmaWxsLW9wYWNpdHk9IjEiIGZpbHRlcj0idXJsKCNmaWx0ZXItNCkiIHhsaW5rOmhyZWY9IiNwYXRoLTMiPjwvdXNlPgogICAgICAgICAgICAgICAgICAgICAgICA8dXNlIGZpbGw9IiNGRkZGRkYiIGZpbGwtcnVsZT0iZXZlbm9kZCIgeGxpbms6aHJlZj0iI3BhdGgtMyI+PC91c2U+CiAgICAgICAgICAgICAgICAgICAgPC9nPgogICAgICAgICAgICAgICAgICAgIDxnIGlkPSJHcm91cC0yNCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTA5LjAwMDAwMCwgNi4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICAgICAgPGcgaWQ9Ikdyb3VwLTI1IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1LjM1MDAwMCwgMy4zNTAwMDApIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0xMS43NTY4MTgyLC0xLjA4NTM1NDAzZS0xMiBDOC4zMzY1Nzc2OSwtMS4wODUzNTQwM2UtMTIgNS41MzMwNjQyNSwyLjcwOTc4MTgxIDUuNDA0NTgxMyw2LjEyMTY0MjQ4IEw1LjQsNi4zNTMxMTIyNCBMNS40LDEyLjggTDE4LjExMzYzNjQsMTIuOCBMMTguMTEzNjM2NCw2LjM2NTMyODQ3IEwxOC4xMDk0MDA3LDYuMTMzODg2NDQgQzE3Ljk4MDU3MjEsMi43MDk3ODE4MSAxNS4xNzcwNTg3LC0xLjA4NTM1NDAzZS0xMiAxMS43NTY4MTgyLC0xLjA4NTM1NDAzZS0xMiBaIE0xMS43NTY4MTgyLDEuMyBDMTQuNDc3MDc2MywxLjMgMTYuNzA3NzU1MywzLjQ1NjA5OTI3IDE2LjgwOTk3NTksNi4xNzA1NjI4NyBMMTYuODEzNzUxMiw2LjM3NzU0NDcgTDE2LjgxMywxMS41IEw2LjcsMTEuNSBMNi43LDYuMzY1MzI4NDcgTDYuNzA0MDA2MDksNi4xNTgzMTg5IEM2LjgwNTg4MTA2LDMuNDU2MDk5MjcgOS4wMzY1NjAwMywxLjMgMTEuNzU2ODE4MiwxLjMgWiIgaWQ9IkNvbWJpbmVkLVNoYXBlIiBmaWxsPSIjMjQ5NTZBIiBmaWxsLXJ1bGU9Im5vbnplcm8iPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0zLjY1LDExLjQ1IEwxMS42NDk1NzQsMTEuNDUgTDExLjY0OTU3NCwxMS40NSBMMTkuNzQwOTA5MSwxMS40NSBDMjEuMzk3NzYzMywxMS40NSAyMi43NDA5MDkxLDEyLjc5MzE0NTggMjIuNzQwOTA5MSwxNC40NSBMMjIuNzQwOTA5MSwyNC4xNTkwOTA5IEMyMi43NDA5MDkxLDI1LjgxNTk0NTIgMjEuMzk3NzYzMywyNy4xNTkwOTA5IDE5Ljc0MDkwOTEsMjcuMTU5MDkwOSBMMTEuNjc1NzMxNywyNy4xNTkwOTA5IEwxMS42NzU3MzE3LDI3LjE1OTA5MDkgTDMuNjUsMjcuMTU5MDkwOSBDMS45OTMxNDU3NSwyNy4xNTkwOTA5IDAuNjUsMjUuODE1OTQ1MiAwLjY1LDI0LjE1OTA5MDkgTDAuNjUsMTQuNDUgQzAuNjUsMTIuNzkzMTQ1OCAxLjk5MzE0NTc1LDExLjQ1IDMuNjUsMTEuNDUgWiIgaWQ9IlJlY3RhbmdsZSIgZmlsbD0iIzI0OTU2QSI+PC9wYXRoPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTE5Ljc0MDkwOTEsMTAuNjUgTDMuNjUsMTAuNjUgQzEuNjM0MTYwNjYsMTAuNjUgOS45NDc1OTgzZS0xNCwxMi4yODQxNjA3IDkuOTQ3NTk4M2UtMTQsMTQuMyBMOS45NDc1OTgzZS0xNCwyNC4wMDkwOTA5IEM5Ljk0NzU5ODNlLTE0LDI2LjAyNDkzMDIgMS42MzQxNjA2NiwyNy42NTkwOTA5IDMuNjUsMjcuNjU5MDkwOSBMMTkuNzQwOTA5MSwyNy42NTkwOTA5IEMyMS43NTY3NDg0LDI3LjY1OTA5MDkgMjMuMzkwOTA5MSwyNi4wMjQ5MzAyIDIzLjM5MDkwOTEsMjQuMDA5MDkwOSBMMjMuMzkwOTA5MSwxNC4zIEMyMy4zOTA5MDkxLDEyLjI4NDE2MDcgMjEuNzU2NzQ4NCwxMC42NSAxOS43NDA5MDkxLDEwLjY1IFogTTMuNjUsMTEuOTUgTDE5Ljc0MDkwOTEsMTEuOTUgQzIxLjAzODc3ODMsMTEuOTUgMjIuMDkwOTA5MSwxMy4wMDIxMzA4IDIyLjA5MDkwOTEsMTQuMyBMMjIuMDkwOTA5MSwyNC4wMDkwOTA5IEMyMi4wOTA5MDkxLDI1LjMwNjk2MDEgMjEuMDM4Nzc4MywyNi4zNTkwOTA5IDE5Ljc0MDkwOTEsMjYuMzU5MDkwOSBMMy42NSwyNi4zNTkwOTA5IEMyLjM1MjEzMDg0LDI2LjM1OTA5MDkgMS4zLDI1LjMwNjk2MDEgMS4zLDI0LjAwOTA5MDkgTDEuMywxNC4zIEMxLjMsMTMuMDAyMTMwOCAyLjM1MjEzMDg0LDExLjk1IDMuNjUsMTEuOTUgWiIgaWQ9IlJlY3RhbmdsZSIgZmlsbD0iIzI0OTU2QSIgZmlsbC1ydWxlPSJub256ZXJvIj48L3BhdGg+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMTEuNjM0MDkwOSwxNS4zNSBDMTIuNzUyNDY3NSwxNS4zNSAxMy42NTkwOTA5LDE2LjI1NjYyMzQgMTMuNjU5MDkwOSwxNy4zNzUgQzEzLjY1OTA5MDksMTguMDQ5MDA2IDEzLjMyOTgwMTEsMTguNjQ2MTAyMiAxMi44MjMzMjIxLDE5LjAxNDE4ODIgTDEzLjQ4MzExOTQsMjIuNTYzNDYxOCBDMTMuNDkyMDksMjIuNjExNjk5OCAxMy40OTY2MDM4LDIyLjY2MDY2MDcgMTMuNDk2NjAzOCwyMi43MDk3MjU3IEMxMy40OTY2MDM4LDIzLjE1MTU1MzUgMTMuMTM4NDMxNiwyMy41MDk3MjU3IDEyLjY5NjYwMzgsMjMuNTA5NzI1NyBMMTIuNjk2NjAzOCwyMy41MDk3MjU3IEwxMC42MDI5Mzc3LDIzLjUwOTcyNTcgQzEwLjU0NTQ3MTksMjMuNTA5NzI1NyAxMC40ODgxNzMzLDIzLjUwMzUzMzkgMTAuNDMyMDM0MSwyMy40OTEyNTc1IEMxMC4wMDA0MDYsMjMuMzk2ODcwMSA5LjcyNzAxODQ3LDIyLjk3MDQ1MDIgOS44MjE0MDU5MywyMi41Mzg4MjIxIEw5LjgyMTQwNTkzLDIyLjUzODgyMjEgTDEwLjU3Mjc1NDcsMTkuMDk5OTE3MSBDOS45OTQ1MTQyMywxOC43NDMzNjkzIDkuNjA5MDkwOTEsMTguMTA0MTk0OSA5LjYwOTA5MDkxLDE3LjM3NSBDOS42MDkwOTA5MSwxNi4yNTY2MjM0IDEwLjUxNTcxNDMsMTUuMzUgMTEuNjM0MDkwOSwxNS4zNSBaIiBpZD0iQ29tYmluZWQtU2hhcGUiIGZpbGw9IiNGRkZGRkYiPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICAgICAgPC9nPgogICAgICAgICAgICAgICAgICAgICAgICA8cmVjdCBpZD0iUmVjdGFuZ2xlIiB4PSIwIiB5PSIwIiB3aWR0aD0iMzUiIGhlaWdodD0iMzUiPjwvcmVjdD4KICAgICAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg== ");
+}
+
+.theme-brigit .credit-freeze-center .white-area svg {
+    display: none;
+}
+
+.theme-brigit .credit-freeze-center .transunion-file {
+    color: #333333;
+    font-weight: 700;
+}
+
+.theme-brigit .credit-freeze-center .active .lock-text {
+    font-size: 16px;
+    color: #696969;
+    margin-bottom: 30px;
+}
+
+.theme-brigit .center-block .history-title {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.theme-brigit .center-block .history-list {
+    padding: 20px 0;
+}
+
+.theme-brigit .center-block .date {
+    color: #696969;
+    font-size: 16px;
+    flex: auto;
+}
+
+.theme-brigit .center-block .lock {
+    color: #333333;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 0;
+}
+
+.theme-brigit .center-block .lock-icon {
+    display: none;
+}
+
+.theme-brigit .center-block .lock-wrapper {
+    flex: auto;
+    text-align: right;
+}
+
+.theme-brigit .center-block .history-list:last-child {
+    border-bottom: 1px solid #ededed;
+}
+
+.theme-brigit .center-block .show-all {
+    font-size: 16px;
+    color: #b3b3b3;
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 576px) {
+    .theme-brigit .credit-freeze-center .transunion-file {
+        font-size: 16px;
+        display: none;
+    }
+
+    .theme-brigit .center-block .date {
+        font-size: 16px;
+    }
+
+    .theme-brigit .center-block .lock {
+        font-size: 16px;
+    }
+
+    .theme-brigit .center-block .lock-wrapper {
+        flex: 0 0 85px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .theme-brigit .credit-freeze-center .active .lock-text {
+        width: 100%;
+    }
+
+    .theme-brigit .center-block .lock,
+    .theme-brigit .center-block .date {
+        font-size: 13px;
+    }
+
+    .theme-brigit .center-block .lock {
+        margin-left: 5px;
+    }
+
+    .theme-brigit .center-block .history-list {
+        padding: 10px 0;
+    }
+
+    .theme-brigit .center-block .lock-wrapper {
+        flex: 0 0 65px;
+    }
+
+    .theme-brigit .center-block .lock {
+        margin-left: 5px;
+    }
+}
+
+.theme-brigit .facts-steps .number {
+    color: #333333;
+}
+
+.theme-brigit .facts-steps .lock-freeze-box {
+    display: none;
+}
+
+.theme-brigit .facts-steps .collapsible.arrow-icon .collapsible__open-close-icon {
+    right: 0;
+    left: auto;
+    top: 24px;
+}
+
+.theme-brigit .facts-steps .questions li {
+    margin-left: 0;
+    padding: 20px 0;
+    position: relative;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.theme-brigit .facts-steps .collapsible .question {
+    padding-right: 30px;
+    font-weight: 500;
+}
+
+.theme-brigit .facts-steps .answer {
+    padding-left: 0;
+}
+
+.theme-brigit .facts-steps .title {
+    font-weight: 700;
+    margin-bottom: 0;
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width: 576px) {
+    .theme-brigit .facts-steps .title {
+        border-bottom: 1px solid #ededed;
+    }
+}
+
+.credit-lock-header .title {
+    color: #1665D8;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.credit-lock-header .subtitle {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 15px 0 0;
+}
+
+.credit-lock-header .lists {
+    margin-bottom: 40px;
+}
+
+.credit-lock-header .description {
+    color: #6B6C6F;
+    font-size: 16px;
+    list-style: initial;
+    margin: 10px 0 0 17px;
+}
+
+@media screen and (max-width: 576px) {
+    .credit-lock-header {
+        margin-top: 30px;
+    }
+
+    .credit-lock-header .title {
+        font-size: 24px;
+    }
+
+    .credit-lock-header .description {
+        font-size: 16px;
+    }
+}
+
+
+section.credit-freeze-center {
+    margin-top: 0;
+}
+
+.credit-freeze-center .center-block {
+    width: 348px;
+    padding: 22px 22px 24px;
+    border: 1px solid #D7DEE4;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.credit-freeze-center .center-block.active {
+    border: 1px solid #00D2A0;
+    background-color: rgba(0, 210, 160, 0.03);
+
+}
+
+.credit-freeze-center .logo {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 68px;
+}
+
+.credit-freeze-center .center-block.active {
+    border: 1px solid #27D381;
+    border-radius: 6px;
+    background-color: rgba(39, 211, 129, 0.05);
+}
+
+.credit-freeze-center .unlock-btn {
+    border: 1px solid #25C77A;
+    border-radius: 4px;
+    background-color: #27D381;
+    margin: 0 auto 24px;
+    height: 43px;
+    width: 133px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.credit-freeze-center .white-area {
+    height: 39px;
+    width: 38px;
+    border: 1px solid #FAFAFA;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    box-shadow: inset 0 2px 0 0 rgba(255, 255, 255, 0.06), 0 1px 1px 0 rgba(22, 29, 37, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 1px;
+}
+
+.credit-freeze-center .green-area {
+    height: 38px;
+    width: 38px;
+    border: 1px solid #00C798;
+    border-radius: 3px;
+    background-color: #27D381;
+    box-shadow: inset 0 2px 0 0 rgba(255, 255, 255, 0.06), 0 1px 1px 0 rgba(22, 29, 37, 0.1);
+    margin-right: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 1px;
+    top: -1px;
+}
+
+.credit-freeze-center .lock-btn {
+    margin: 0 auto 24px;
+    height: 43px;
+    width: 133px;
+    border: 1px solid #D7DEE4;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.credit-freeze-center .unlocked {
+    color: #BCC7D1;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.credit-freeze-center .transunion-file {
+    color: #3E3F42;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.credit-freeze-center .lock-text {
+    color: #6B6C6F;
+    font-size: 16px;
+    text-align: center;
+    margin: 4px auto 32px;
+}
+
+.credit-freeze-center .active .lock-text {
+    width: 80%;
+}
+
+.credit-freeze-center .locked {
+    color: white;
+    font-size: 16px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-block .history-title {
+    color: #3E3F42;
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+
+.center-block .history-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px 0;
+    border-bottom: 1px solid #ededed;
+}
+
+.center-block .history-list:last-child {
+    border-bottom: none;
+}
+
+.center-block .date {
+    color: #6B6C6F;
+    font-size: 14px;
+    flex: 1;
+}
+
+.center-block .lock-wrapper {
+    flex: 0 0 75px;
+}
+
+.center-block .lock {
+    color: #6B6C6F;
+    font-size: 14px;
+    margin-left: 13px;
+}
+
+.center-block .show-all {
+    text-align: center;
+    margin: 8px auto 0;
+    color: #1665D8;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    section.credit-freeze-center {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .credit-freeze-center .center-block {
+        width: 100%;
+        margin: 0 auto;
+        padding: 22px 20px 24px;
+    }
+
+    .credit-lock-header .title {
+        font-size: 24px;
+    }
+
+    .credit-freeze-center .logo {
+        margin-bottom: 36px;
+    }
+}
+
+
+@media screen and (max-width: 380px) {
+
+    .center-block .lock {
+        font-size: 12px;
+    }
+
+    .center-block .lock-wrapper {
+        flex: 0 0 70px;
+    }
+
+    .center-block .date {
+        font-size: 12px;
+    }
+
+    .credit-freeze-center .lock-text {
+        width: 90%;
+    }
+}
+
+section.facts-steps {
+    margin-top: 50px;
+}
+
+.facts-steps .facts-steps-header {
+    display: flex;
+    align-items: center;
+}
+
+.facts-steps .title {
+    color: #3E3F42;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 24px 0 0;
+}
+
+.facts-steps .lock-freeze-box {
+    height: 44px;
+    width: 126px;
+    color: #1665D8;
+    font-size: 16px;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.facts-steps .lock-freeze-box:last-child {
+    margin-right: 0;
+}
+
+.facts-steps .lock-freeze-box.active {
+    border-radius: 5px;
+    background-color: rgba(22, 101, 216, 0.05);
+}
+
+.facts-steps .questions .faq {
+    position: relative;
+    display: flex;
+    padding: 16px 0 20px;
+    margin-left: 40px;
+    border-bottom: 1px solid #ededed;
+}
+
+.facts-steps .questions .faq:last-child {
+    border-bottom: none;
+}
+
+.facts-steps .collapsible.arrow-icon .collapsible__open-close-icon {
+    position: absolute;
+    left: -34px;
+    top: 18px;
+    margin-right: 10px;
+    transform: rotate(0deg);
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.facts-steps .number {
+    color: #1665D8;
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+.facts-steps .question {
+    color: #3E3F42;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.facts-steps .collapsible .question {
+    margin-bottom: 0;
+    display: flex;
+}
+
+.facts-steps .expanded .question {
+    margin-bottom: 8px;
+}
+
+.facts-steps .answer {
+    font-size: 16px;
+    color: #6B6C6F;
+    padding-left: 22px;
+}
+
+.facts-steps .answer.no-padding-left {
+    padding-left: 0;
+}
+
+.facts-steps .step {
+    color: #3E3F42;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.facts-steps .dot {
+    width: 5px;
+    height: 5px;
+    border: 1px solid #6B6C6F;
+    border-radius: 50%;
+    background-color: #6B6C6F;
+    margin-right: 20px;
+    position: relative;
+    top: 13px;
+}
+
+.facts-steps .step-text {
+    color: #6B6C6F;
+    font-size: 16px;
+    margin: 4px 0 16px;
+}
+
+.facts-steps .step-text:last-child {
+    margin-bottom: 0;
+}
+
+.facts-steps .sub-step-title {
+    color: #6B6C6F;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.facts-steps .sub-step-text {
+    color: #6B6C6F;
+    font-size: 16px;
+    margin-bottom: 8px;
+    display: flex;
+}
+
+.facts-steps .freeze-methods-lists {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    width: 100%;
+}
+
+.facts-steps .freeze-methods-list {
+    flex: 0 0 33%;
+}
+
+.facts-steps .logo {
+    color: #3E3F42;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.facts-steps .address {
+    color: #6B6C6F;
+    font-size: 16px;
+}
+
+.facts-steps .required-docs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+.facts-steps .panel {
+    flex: 0 0 50%;
+}
+
+.facts-steps .doc {
+    color: #6B6C6F;
+    font-size: 16px;
+    margin-bottom: 6px;
+    display: flex;
+}
+
+.facts-steps .dot-margin-right {
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .facts-steps .title {
+        margin-right: 15px;
+        font-size: 20px;
+    }
+
+    .facts-steps .lock-freeze-box {
+        width: 100px;
+        margin-right: 15px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .facts-steps .facts-steps-header {
+        flex-direction: column;
+        align-items: initial;
+    }
+
+    .facts-steps .title {
+        margin: 0 0 12px;
+    }
+
+    .facts-steps .lock-freeze-box {
+        flex: 0 0 44px;
+        width: 100%;
+        font-size: 16px;
+        margin: 0 0 10px;
+        justify-content: flex-start;
+        padding-left: 26px;
+    }
+
+    .facts-steps .number {
+        margin-right: 14px;
+        font-size: 16px;
+    }
+
+    .facts-steps .question {
+        font-size: 16px;
+    }
+
+    .facts-steps .answer {
+        font-size: 14px;
+    }
+
+    .facts-steps .questions li {
+        margin-left: 32px;
+    }
+
+    .facts-steps .step,
+    .facts-steps .step-text {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .facts-steps .title {
+        font-size: 16px;
+    }
+
+    .facts-steps .answer {
+        padding-right: 15px;
+    }
+
+    .facts-steps .number {
+        margin-right: 10px;
+    }
+
+    .facts-steps .collapsible.arrow-icon .collapsible__open-close-icon {
+        margin-right: 0;
+        left: -25px;
+    }
+}
+
+
+.scrollbar {
+    max-height: 400px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+.scrollbar .date {
+    max-width: 90%;
+}
+
+.scrollbar .history-list {
+    align-items: flex-start;
+}
+
+.error {
+    text-align: center;
+    padding: 10px;
+}
+.error svg {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.error .text-error {
+    margin-top: 30px;
+    display: block;
+    color: #ff0000;
+    font-weight: 500;
+}
+
+.scrollbar {
+    scrollbar-width: thin !important;
+    scroll-behavior: smooth;
+  }
+  .scrollbar::-webkit-scrollbar {
+    width: 3px;
+    height: 3px !important;
+    @media (max-width: 1440px) {
+      width: 2px;
+      height: 2px !important;
+    }
+  }
+  
+  .scrollbar::-webkit-scrollbar-thumb {
+    border: 4px solid #00a6ca;
+    background-clip: padding-box;
+    border-radius: 7px;
+    background-color: #00a6ca;
+  }
+  
+  .scrollbar::-webkit-scrollbar-button {
+    width: 0;
+    height: 0;
+    display: none;
+  }
